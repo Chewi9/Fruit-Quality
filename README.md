@@ -7,11 +7,12 @@ Este repositorio documenta el desarrollo de un sistema de visión por computador
 El desarrollo se ha dividido en fases iterativas, abordando desafíos específicos en cada etapa:
 
 Parte 1: Detección Básica (Manzanas Claras)
-Objetivo: Detectar grandes áreas de podredumbre oscura en manzanas de piel clara (amarilla/verde).
+Objetivo: Detectar grandes áreas de podredumbre oscura en manzanas de piel clara.
 
-Técnica: Combinación de detección de bordes (Sobel/Canny) y análisis de color (LUT/HSV).
+Técnica: Combinación de detección de bordes (Sobel) y análisis de color (LUT/HSV).
 
 Resultado: Efectivo para defectos de alto contraste y gran tamaño.
+
 
 Parte 2: Robustez y Generalización
 Mejora: Implementación del Método de Otsu para la umbralización automática, eliminando la dependencia de valores fijos de iluminación.
@@ -47,15 +48,16 @@ Parte-1.ipynb: Prototipo inicial con detección por gradientes y LUT.
 
 Parte-2.ipynb: Versión mejorada con Otsu y fusión lógica de bordes/color.
 
-Parte-3-Canales.py (o el nombre que le des al último script): Solución final basada en canales de color para frutas de piel oscura.
+Parte-2.1.ipynb: Pruebas con diferentes manzanas donde se observa de forma más clara el fallo.
+
+Parte-2.2.ipynb: Pruebas con diferentes frutas para comprobar que se detecta todo de manera clara.
 
 
 
 ## ✨ Cómo Ejecutar
 
-Clona el repositorio.
+1. Clona el repositorio.
 
-Asegúrate de tener las librerías necesarias:
-pip install opencv-python numpy matplotlib
+2. Asegúrate de tener las librerías necesarias: pip install opencv-python numpy matplotlib
 
-Ejecuta los notebooks o scripts apuntando a tus imágenes en la carpeta /images.
+3. Ejecuta los notebooks o scripts apuntando a tus imágenes en la carpeta /images.
