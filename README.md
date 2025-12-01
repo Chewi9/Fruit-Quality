@@ -2,6 +2,7 @@
 Este repositorio documenta el desarrollo de un sistema de visión por computador diseñado para detectar defectos en frutas, con el objetivo de automatizar el control de calidad en líneas de producción. El proyecto explora desde técnicas básicas de procesamiento de imagen hasta algoritmos más robustos para adaptarse a diferentes tipos de frutas y defectos.
 
 🚀 Evolución del Proyecto
+
 El desarrollo se ha dividido en fases iterativas, abordando desafíos específicos en cada etapa:
 
 Parte 1: Detección Básica (Manzanas Claras)
@@ -23,7 +24,10 @@ Problema: Los métodos anteriores fallaban al detectar defectos oscuros (como ag
 
 Solución Innovadora: Implementación de separación de canales de color. Al analizar exclusivamente el Canal Rojo, se maximiza el contraste físico entre la piel (que refleja mucho rojo) y el defecto (que lo absorbe), permitiendo una segmentación precisa mediante umbralización simple y filtrado por circularidad.
 
+
+
 🛠️ Tecnologías Utilizadas
+
 Python 3.12
 
 OpenCV (cv2): Procesamiento de imágenes, operaciones morfológicas, detección de contornos.
@@ -33,6 +37,7 @@ NumPy: Manipulación de matrices y cálculos numéricos.
 Matplotlib: Visualización de resultados y etapas intermedias.
 
 📂 Estructura del Repositorio
+
 /images: Banco de imágenes de prueba (ManzanaB, ManzanaM, ManzanaGusano, Pera, etc.).
 
 Parte-1.ipynb: Prototipo inicial con detección por gradientes y LUT.
@@ -42,6 +47,7 @@ Parte-2.ipynb: Versión mejorada con Otsu y fusión lógica de bordes/color.
 Parte-3-Canales.py (o el nombre que le des al último script): Solución final basada en canales de color para frutas de piel oscura.
 
 ✨ Cómo Ejecutar
+
 Clona el repositorio.
 
 Asegúrate de tener las librerías necesarias:
