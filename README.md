@@ -1,7 +1,8 @@
 # FruitQuality - Detector de Defectos en Frutas 🍎🐛
 Este repositorio documenta el desarrollo de un sistema de visión por computador diseñado para detectar defectos en frutas, con el objetivo de automatizar el control de calidad en líneas de producción. El proyecto explora desde técnicas básicas de procesamiento de imagen hasta algoritmos más robustos para adaptarse a diferentes tipos de frutas y defectos.
 
-🚀 Evolución del Proyecto
+
+## 🚀 Evolución del Proyecto
 
 El desarrollo se ha dividido en fases iterativas, abordando desafíos específicos en cada etapa:
 
@@ -26,7 +27,7 @@ Solución Innovadora: Implementación de separación de canales de color. Al ana
 
 
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 Python 3.12
 
@@ -36,7 +37,9 @@ NumPy: Manipulación de matrices y cálculos numéricos.
 
 Matplotlib: Visualización de resultados y etapas intermedias.
 
-📂 Estructura del Repositorio
+
+
+## 📂 Estructura del Repositorio
 
 /images: Banco de imágenes de prueba (ManzanaB, ManzanaM, ManzanaGusano, Pera, etc.).
 
@@ -46,7 +49,9 @@ Parte-2.ipynb: Versión mejorada con Otsu y fusión lógica de bordes/color.
 
 Parte-3-Canales.py (o el nombre que le des al último script): Solución final basada en canales de color para frutas de piel oscura.
 
-✨ Cómo Ejecutar
+
+
+## ✨ Cómo Ejecutar
 
 Clona el repositorio.
 
