@@ -6,7 +6,7 @@ Este repositorio documenta el desarrollo de un sistema de visión por computador
 
 El desarrollo se ha dividido en fases iterativas, abordando desafíos específicos en cada etapa:
 
-Parte 1: Detección Básica
+#### Parte 1: Detección Básica
 Objetivo: Detectar grandes áreas de podredumbre oscura en manzanas de piel clara.
 
 Técnica: Combinación de detección de bordes (Sobel) y análisis de color (LUT/HSV).
@@ -14,7 +14,7 @@ Técnica: Combinación de detección de bordes (Sobel) y análisis de color (LUT
 Resultado: Efectivo para defectos de alto contraste y gran tamaño.
 
 
-Parte 2: Robustez y Generalización
+#### Parte 2: Robustez y Generalización
 Mejora: Implementación del Método de Otsu para la umbralización automática, eliminando la dependencia de valores fijos de iluminación.
 
 Mejora: Introducción de operaciones morfológicas (apertura/cierre) para limpiar el ruido y reducir falsos positivos.
@@ -22,7 +22,7 @@ Mejora: Introducción de operaciones morfológicas (apertura/cierre) para limpia
 Resultado: Un sistema capaz de adaptarse a variaciones de luz, ideal para defectos tipo "golpe" o "podredumbre" en frutas claras.
 
 
-Parte 3: Detección Avanzada en Entornos Complejos
+#### Parte 3: Detección Avanzada en Entornos Complejos
 
 Mejora: Eliminación del fondo de la imagen con ayuda del modelo YOLOv8-seg.
 
