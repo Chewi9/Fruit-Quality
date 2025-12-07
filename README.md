@@ -23,6 +23,7 @@ Resultado: Un sistema capaz de adaptarse a variaciones de luz, ideal para defect
 
 
 Parte 3: Detección Avanzada en Entornos Complejos
+
 Mejora: Eliminación del fondo de la imagen con ayuda del modelo YOLOv8-seg.
 
 Resultado: El modelo "entiende" la forma del objeto. Sabe distinguir entre distintos objetos con el mismo color y elegir el favorable, detectando la más grande que se encuentre en la imagen.
@@ -61,6 +62,6 @@ Parte-2.2.ipynb: Pruebas con diferentes frutas para comprobar que se detecta tod
 
 1. Clona el repositorio.
 
-2. Asegúrate de tener las librerías necesarias: pip install opencv-python numpy matplotlib
+2. Asegúrate de tener las librerías necesarias: pip install opencv-python numpy matplotlib ultralytics
 
 3. Ejecuta los notebooks o scripts apuntando a tus imágenes en la carpeta /images.
