@@ -21,10 +21,10 @@ Mejora: Introducción de operaciones morfológicas (apertura/cierre) para limpia
 
 Resultado: Un sistema capaz de adaptarse a variaciones de luz, ideal para defectos tipo "golpe" o "podredumbre" en frutas claras.
 
-Parte 3: El Desafío del Bajo Contraste (Manzanas Rojas) 🔴
-Problema: Los métodos anteriores fallaban al detectar defectos oscuros (como agujeros de gusano) sobre pieles oscuras (manzanas rojas), confundiendo la piel sana con el defecto.
+Parte 3: Detección Avanzada en Entornos Complejos
+Mejora: Eliminación del fondo de la imagen con ayuda del modelo YOLOv8-seg.
 
-Solución Innovadora: Implementación de separación de canales de color. Al analizar exclusivamente el Canal Rojo, se maximiza el contraste físico entre la piel (que refleja mucho rojo) y el defecto (que lo absorbe), permitiendo una segmentación precisa mediante umbralización simple y filtrado por circularidad.
+Resultado: El modelo "entiende" la forma del objeto. Sabe distinguir entre distintos objetos con el mismo color y elegir el favorable, detectando la más grande que se encuentre en la imagen.
 
 
 
@@ -37,6 +37,8 @@ OpenCV (cv2): Procesamiento de imágenes, operaciones morfológicas, detección 
 NumPy: Manipulación de matrices y cálculos numéricos.
 
 Matplotlib: Visualización de resultados y etapas intermedias.
+
+Ultralytics: Detección y segmentación de instancias en tiempo real.
 
 
 
