@@ -1,8 +1,5 @@
 # FruitQuality: Detector de Defectos en Frutas 🍎🐛
 
-![Status](https://img.shields.io/badge/Status-En%20Desarrollo-green)
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![OpenCV](https://img.shields.io/badge/Library-OpenCV-orange)
 
 Este repositorio documenta el desarrollo de un sistema de visión por computador diseñado para detectar defectos en frutas, con el objetivo de automatizar el control de calidad en líneas de producción. El proyecto explora desde técnicas básicas de procesamiento de imagen hasta algoritmos más robustos para adaptarse a diferentes tipos de frutas y defectos.
 
