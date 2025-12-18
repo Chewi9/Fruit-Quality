@@ -45,14 +45,18 @@ El desarrollo se ha dividido en fases iterativas, abordando desafíos específic
 ├── Parte-2.1.ipynb     # Pruebas con diferentes manzanas (análisis de fallos)
 ├── Parte-2.2.ipynb     # Pruebas de generalización con diferentes frutas
 └── README.md
+```
 
 
 ## ✨ Cómo Ejecutar
 
 1. Clona el repositorio.
+
+   ```bash
       git clone https://github.com/Chewi9/Fruit-Quality.git
 
 2. Asegúrate de tener las librerías necesarias: pip install opencv-python numpy matplotlib ultralytics
+   ```bash
       pip install opencv-python numpy matplotlib ultralytics
 
 3. Ejecuta los notebooks o scripts apuntando a tus imágenes en la carpeta /images.
